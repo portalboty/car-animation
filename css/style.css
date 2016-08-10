@@ -1,8 +1,8 @@
 body{   
-    animation:GoBackground 10s linear infinite;
-    -moz-animation:GoBackground 10s linear infinite;
-    -webkit-animation:GoBackground 10s linear infinite;
-    background:#000 url(../img/bg.jpg) no-repeat 50% 0;
+    animation:GoBackground 20s linear infinite;
+    -moz-animation:GoBackground 20s linear infinite;
+    -webkit-animation:GoBackground 20s linear infinite;
+    background:#000 url(../img/1.jpg) repeat-x 0 0;
     height:100%
 }
 
@@ -17,6 +17,7 @@ body{
     background:url(../img/body.png ) no-repeat;
     width:360px;
     height:111px;
+    margin-top:320px;
 }
 
 #wheel-front{
@@ -65,15 +66,15 @@ body{
 
 @keyframes GoBackground{
     0%{background-position:0px 0px;}
-    100%{background-position:-1000px 0px;}
+    100%{background-position:-3000px 0px;}
 }
 
 @-moz-keyframes GoBackground{
     0%{background-position:0px 0px;}
-    100%{background-position:-1000px 0px;}
+    100%{background-position:-3000px 0px;}
 }
 
 @-webkit-keyframes GoBackground{
     0%{background-position:0px 0px;}
-    100%{background-position:-1000px 0px;}
+    100%{background-position:-3000px 0px;}
 }
